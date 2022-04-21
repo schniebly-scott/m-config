@@ -1,0 +1,2 @@
+#Extension of the .zshrc file in the home folder added to the bottom
+bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
