@@ -18,6 +18,12 @@ $ chsh
 > /bin/zsh
 ```
 
+Github cache credentials:
+``` 
+$ git config --global credential.helper cache
+```
+
+
 **ZSH** 
 
 Add the following code to the .zshrc file at the bottom before p10k config: 
