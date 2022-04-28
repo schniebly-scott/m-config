@@ -61,7 +61,7 @@ First, run the following to create the directory needed in the next step:
 $ mkdir -p ~/.config/awesome/
 ```
 
-Whenever compiled, awesome will attempt to use whatever custom settings are contained in ~/.config/awesome/rc.lua. This file is not created by default, so we must copy the template file first:
+Create hardlinks for the configs:
 ``` 
-$ cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+$ ln m-config/awesome/rc.lua .config/awesome/rc.lua
 ```
