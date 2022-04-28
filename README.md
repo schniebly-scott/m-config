@@ -12,6 +12,12 @@ $ sudo systemctl status fstrim.timer
 $ sudo systemctl enable fstrim.timer
 ```
 
+Change to zsh:
+``` 
+$ chsh
+> /bin/zsh
+```
+
 **ZSH** 
 
 Add the following code to the .zshrc file at the bottom before p10k config: 
@@ -30,4 +36,26 @@ Run the following to create a hardlink:
 ``` 
 rm .config/kitty/kitty.conf
 ln m-config/kitty.conf .config/kitty/kitty.conf
+```
+
+
+**vim** 
+
+Run the following to create a hardlink: 
+
+``` 
+ln m-config/vimrc .vimrc
+```
+
+
+**awesome** 
+
+First, run the following to create the directory needed in the next step:
+``` 
+$ mkdir -p ~/.config/awesome/
+```
+
+Whenever compiled, awesome will attempt to use whatever custom settings are contained in ~/.config/awesome/rc.lua. This file is not created by default, so we must copy the template file first:
+``` 
+$ cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
 ```

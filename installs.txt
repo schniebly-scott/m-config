@@ -1,0 +1,3 @@
+kitty
+vivaldi
+vim(gvim)
