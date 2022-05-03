@@ -2,3 +2,4 @@ kitty
 vivaldi
 vim(gvim)
 nitrogen
+rofi
